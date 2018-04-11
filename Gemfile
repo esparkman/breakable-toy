@@ -5,7 +5,7 @@ ruby '2.5.0'
 
 gem 'rails', '~> 5.2.0'
 gem 'pg', '~> 0.18'
-gem 'passenger'
+gem 'puma'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

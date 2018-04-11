@@ -104,11 +104,9 @@ GEM
     nio4r (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
-    passenger (5.2.3)
-      rack
-      rake (>= 0.8.1)
     pg (0.21.0)
     public_suffix (3.0.2)
+    puma (3.11.3)
     rack (2.0.4)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
@@ -208,8 +206,8 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   lograge
-  passenger
   pg (~> 0.18)
+  puma
   rails (~> 5.2.0)
   rails_semantic_logger
   sass-rails (~> 5.0)

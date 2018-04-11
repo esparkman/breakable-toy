@@ -47,6 +47,7 @@ GEM
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+    awesome_print (1.8.0)
     bindex (0.5.0)
     bootsnap (1.2.1)
       msgpack (~> 1.0)
@@ -124,6 +125,9 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_semantic_logger (4.2.1)
+      rails (>= 3.2)
+      semantic_logger (~> 4.1)
     railties (5.2.0.rc2)
       actionpack (= 5.2.0.rc2)
       activesupport (= 5.2.0.rc2)
@@ -150,6 +154,8 @@ GEM
     selenium-webdriver (3.11.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.2)
+    semantic_logger (4.2.1)
+      concurrent-ruby (~> 1.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -187,6 +193,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   bootsnap (>= 1.1.0)
   byebug
   capybara (~> 2.15)
@@ -196,6 +203,7 @@ DEPENDENCIES
   passenger
   pg (~> 0.18)
   rails (~> 5.2.0.beta2)
+  rails_semantic_logger
   sass-rails (~> 5.0)
   selenium-webdriver
   spring

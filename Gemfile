@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.0'
 
-gem 'rails', '~> 5.2.0.beta2'
+gem 'rails', '~> 5.2.0'
 gem 'pg', '~> 0.18'
 gem 'passenger'
 gem 'sass-rails', '~> 5.0'
@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'awesome_print'
 gem 'rails_semantic_logger'
+gem 'lograge'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

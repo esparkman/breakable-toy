@@ -56,7 +56,15 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  # Lograge configuration
+  # Semantic Logger configuration
+
+  config.rails_semantic_logger.semantic   = false
+  config.rails_semantic_logger.started    = true
+  config.rails_semantic_logger.processing = true
+  config.rails_semantic_logger.rendered   = false
+  config.semantic_logger.backtrace_level = :debug
+
+
 
   # config.lograge.enabled = true
   # path = "#{Rails.root}/log/lograge_#{Rails.env}.log"

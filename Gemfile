@@ -32,6 +32,13 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'awesome_print'
 gem 'rails_semantic_logger'
 gem 'devise'
+gem 'devise_masquerade', '~> 0.6.0'
+gem 'bootstrap'
+gem 'font-awesome-sass', '~> 4.7'
+gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
+gem 'jquery-rails'
+gem 'administrate', '~> 0.10.0'
+gem 'data-confirm-modal', '~> 1.6.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

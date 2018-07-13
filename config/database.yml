@@ -82,5 +82,6 @@ production:
   <<: *default
   database: breakable_toy_production
   username: deployer
-  password: <%= ENV['BREAKABLE-TOY_DATABASE_PASSWORD'] %>
-  url: <%= ENV['DATABASE_URL'] %>
+  password: D2RydjeqEEwMcogoXyhGRqiY
+  host: breakabletoy.cijiwlxhncam.us-east-1.rds.amazonaws.com
+  port: 5432

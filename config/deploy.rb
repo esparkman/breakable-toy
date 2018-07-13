@@ -4,6 +4,7 @@ lock "~> 3.11.0"
 set :application, "breakable-toy"
 set :repo_url, "git@github.com:esparkman/breakable-toy.git"
 set :user, 'deployer'
+set :linked_files, %w{config/master.key}
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets"
 
 set :puma_threads, [2, 4]

@@ -39,6 +39,7 @@ gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
 gem 'jquery-rails'
 gem 'administrate', '~> 0.10.0'
 gem 'data-confirm-modal', '~> 1.6.2'
+gem 'fast_jsonapi'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

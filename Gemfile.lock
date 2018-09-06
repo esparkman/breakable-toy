@@ -128,6 +128,8 @@ GEM
       railties (>= 3.0)
     erubi (1.7.1)
     execjs (2.7.0)
+    fast_jsonapi (1.3)
+      activesupport (>= 4.2)
     ffi (1.9.25)
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
@@ -300,6 +302,7 @@ DEPENDENCIES
   data-confirm-modal (~> 1.6.2)
   devise
   devise_masquerade (~> 0.6.0)
+  fast_jsonapi
   font-awesome-sass (~> 4.7)
   gravatar_image_tag!
   jbuilder (~> 2.5)
